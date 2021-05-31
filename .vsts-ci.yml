@@ -29,7 +29,7 @@ jobs:
       useNuGetOrg: true
       mergeBranch: true
       branchToMerge: 'uno'
-      nugetUpdaterVersion: '2.0.2'
+      nugetUpdaterVersion: '2.1.1'
       allowDowngrade: true
       packageAuthor: 'nventive'
       summaryFile: '$(Build.ArtifactStagingDirectory)/Canary.md'
@@ -107,7 +107,7 @@ jobs:
       useNuGetOrg: true
       mergeBranch: true
       branchToMerge: 'uno'
-      nugetUpdaterVersion: '2.0.4'
+      nugetUpdaterVersion: '2.1.1'
       allowDowngrade: true
       packageAuthor: 'nventive'
       summaryFile: '$(Build.ArtifactStagingDirectory)/Canary.md'
