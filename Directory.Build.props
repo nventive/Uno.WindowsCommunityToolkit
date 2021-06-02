@@ -97,6 +97,10 @@
     <!-- This is valid for platforms other than .NET Framework (and is needed for the UWP targets -->
     <NoWarn>$(NoWarn);8002</NoWarn>
   </PropertyGroup>
+	
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);SA1633</NoWarn>
+  </PropertyGroup>
 
   <ItemGroup Condition="!$([MSBuild]::IsOsUnixLike()) and '$(BuildingInsideVisualStudio)'=='' ">
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="all" />
